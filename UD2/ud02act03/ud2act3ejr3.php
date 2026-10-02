@@ -26,17 +26,17 @@
 
     $a = rand(1, 3);
 
-    switch ($a) {
-        case 1:
-            echo "El número generado es: $a y en castellano es uno.";
-            break;
-        case 2:
-            echo "<br>El número generado es: $a y en castellano es dos.";
-            break;
-        case 3:
-            echo "<br>El número generado es: $a y en castellano es tres.";
-            break;
+    $salida = match ($a) {
+
+        1 => 'El número generado es: $a y en castellano es uno.',
+
+
+        2 => 'El número generado es: $a y en castellano es dos.',
+
+
+        3 => '>El número generado es: $a y en castellano es tres.',
     }
+    
 
 
     ?>
