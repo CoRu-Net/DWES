@@ -1,5 +1,5 @@
 <?php
- $resultad = array();
+ $resultado = array();
 
 for($a=0; $a< 4; $a++){
     
