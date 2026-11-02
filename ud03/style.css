@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;       
+    margin: 0;
+}
+#cuadro{    
+     width: 50%;   
+    background-color: rgb(39, 21, 47);
+}
+#convi{
+      display: flex;
+    flex-direction:column
+}
+#convive{
+    width: 80px;
+}
+form{
+    margin-left: 10px;
+    margin-right:10px
+}
