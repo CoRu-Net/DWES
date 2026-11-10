@@ -1,10 +1,10 @@
 <?php
 include 'personas.php';
 include 'departamento.php';
-$departamento1 = new departamento("Recursos Humanos");
-$persona1 = new persona("Juan", 50000);
+$departamento1 = new Departamento("Recursos Humanos");
+$persona1 = new Persona("Juan", 50000);
 $departamento1->agregarPersona($persona1);
-$persona2 = new persona("Maria", 60000);
+$persona2 = new Persona("Maria", 60000);
 $departamento1->agregarPersona($persona2);
 echo "<h2>Departamento: " . $departamento1->getNombre() . "</h2>";
 echo "<h3>Lista de Empleados:</h3>";
