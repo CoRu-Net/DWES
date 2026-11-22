@@ -1,0 +1,67 @@
+/* estilos.css - Estilos personalizados complementarios a Pico.css */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--pico-background-color);
+}
+
+.container {
+    max-width: 720px;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.formulario-card,
+.resultados-card {
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+.formulario-card header h2,
+.resultados-card header h2 {
+    margin-bottom: 0.5rem;
+    color: var(--pico-primary);
+}
+
+.formulario-card form {
+    margin-top: 1.5rem;
+}
+
+table {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+table th {
+    background-color: var(--pico-card-background-color);
+}
+
+.mensaje-alerta {
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-left: 4px solid var(--pico-del-color, #e53e3e);
+    background-color: rgba(229, 62, 62, 0.08);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.mensaje-alerta p {
+    margin: 0;
+}
+
+.volver-enlace {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.volver-enlace a {
+    width: auto;
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+}
