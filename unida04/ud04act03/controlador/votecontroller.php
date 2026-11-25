@@ -10,7 +10,6 @@ public function procesar() {
     
     $mensaje = '';
     
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (!empty($_POST['texto'])) {
             $this->modelo->agregarOpcion($_POST['texto']);
             $mensaje = '✅ Opción agregada correctamente';
@@ -21,7 +20,7 @@ public function procesar() {
             $this->modelo->eliminar($_POST['eliminar']);
             $mensaje = '🗑️ Opción eliminada';
         }
-    }
+    
     
     $opciones = $this->modelo->obtenerOpciones();
    
