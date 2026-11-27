@@ -1,3 +1,10 @@
+<?php
+/** @var array $data */
+if (!isset($data)) {
+    header('Location: index.php');
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 
